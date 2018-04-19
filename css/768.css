@@ -1,0 +1,339 @@
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/*----------------------------------------
+				 Header
+---------------------------------------- */
+#header {height:252px;}
+	.row-logo {height:146px;}
+/* Logo */
+.logo {
+	margin:0;
+	padding:0px 0 0 0px;	
+}
+.logo img{
+	width:430px;
+	height:auto;
+}
+	
+/*----------------------------------------
+				Top search
+---------------------------------------- */
+#top-search {
+	width: 300px;
+}
+#top-search .input-search {width:208px;}
+
+/*----------------------------------------
+				Banner
+---------------------------------------- */
+#top-search-banner {
+	width: 295px;
+}
+
+/*---------------------------------------
+			 Navigations
+---------------------------------------- */
+.sf-menu > li {
+	width:120px;
+	padding:0 30px 0 30px;		
+}
+.sf-menu > li > a {
+	font-size:18px; 
+	line-height:22px;
+	padding:18px 0px 18px 0px;
+}
+
+/*----------------------------------------
+				Content
+---------------------------------------- */
+.prefix_3.left {padding-left:0px!important; padding-right:96px;}
+
+/*----------------------------------------
+					Misc
+---------------------------------------- */
+.separator {background:url(../images/slider/line-1.gif) 501px 0 repeat-y;}
+	.separator.left {background-position: 257px 0;}
+.separator-1 {background:url(../images/slider/line-1.gif) 513px 0 repeat-y;}
+
+.phone {padding:0 0 0 34px;}
+
+/* ----------------------------------------
+				Slider
+---------------------------------------- */
+#slider-wrapper,
+.slider-loader {height:434px;}
+
+#slider-wrapper {
+	padding:0 0 70px;
+	background:url(../images/slider/bg-slider-768.png) center bottom no-repeat;
+	background-color: White;
+}
+/*----------------------------------------
+				Prev & Next
+---------------------------------------- */
+
+.camera_prev, .camera_next {top: 50%;}
+.camera_prev {left: 0px;}
+.camera_next {right: 0px;}
+/*----------------------------------------
+				Paginations
+---------------------------------------- */
+.camera_wrap .camera_pag {bottom:-60px;}
+
+
+/* ----------------------------------------
+	Recent Posts & Recent Post Services-Post
+---------------------------------------- */
+.latestpost li, .recent-posts.services-post li  {
+	width:344px;
+	padding:23px 10px 32px 20px;
+}
+	.latestpost li .featured-thumbnail, .recent-posts.services-post li .featured-thumbnail{
+		width:150px;
+		height:auto;
+		margin-bottom:20px;
+	}
+		.latestpost li .featured-thumbnail img, .recent-posts.services-post li .featured-thumbnail img{
+			width:100%;
+			height:auto;
+		}
+/* ----------------------------------------
+				Posts Type widget
+---------------------------------------- */
+.post_list.intro li .featured-thumbnail {
+	width:200px;
+	height:auto;
+	margin:10px 15px 10px 0;
+}
+	.post_list.intro li .featured-thumbnail img {
+		width:184px;
+		height:auto;
+	}
+	.post_list.intro li .extra-wrap {overflow:visible;}
+	
+/* ----------------------------------------
+				 Recent News
+---------------------------------------- */
+.latestnews li {
+	width:115px;
+	padding:0px 25px 4px 0px;
+}
+
+/*----------------------------------------
+		Recent Post Services
+---------------------------------------- */	
+.recent-posts.services li .featured-thumbnail {
+	width:342px;
+	height:auto;
+}
+	.recent-posts.services li .featured-thumbnail img{
+		width:326px;
+		height:auto;
+	}
+
+/*----------------------------------------
+		Recent Post Clients
+---------------------------------------- */	
+.recent-posts.clients li {
+	width:163px;
+	margin:0 5px 25px 0;
+}
+	.recent-posts.clients li .featured-thumbnail {
+		width:163px;
+		height:auto;
+	}
+	.recent-posts.clients li .featured-thumbnail img{
+		width:147px;
+		height:auto;
+	}
+
+	
+/* ----------------------------------------
+				 Posts
+---------------------------------------- */	
+.featured-thumbnail.large img{
+	width:438px;
+	height:auto;
+}
+	.featured-thumbnail.large img{
+		width:422px;
+		height:239px;
+	}
+/*----------------------------------------
+				Related Posts
+---------------------------------------- */	
+.related-posts li .featured-thumbnail {
+	width:96px;
+	height:auto;
+}
+	.related-posts li .featured-thumbnail img{
+		width:80px;
+		height:auto;
+	}
+
+/* Flickr widget */
+.flickrImages a {
+	width:58px;
+	height:58px;
+}
+
+.frame.alignleft img,
+.frame.alignright img,
+.frame.alignnone img	{
+	width:100% !important;
+	height:auto !important;
+}
+
+/* SlidesJS */
+.slides_container {
+	width:224px;
+}
+.slides_container .item {
+	width:224px;
+	height:170px;
+}
+	.slides_container .item .featured-thumbnail {
+		float:none;
+		margin-right:0;
+		overflow:hidden;
+	}
+		.slides_container .item .featured-thumbnail img {
+			width:100%;
+			height:auto;
+		}
+
+
+/*----------------------------------------
+		Recent Post Our Team
+---------------------------------------- */
+.recent-posts.team li {width:186px; margin:0 10px 30px 0;}
+.recent-posts.team li .featured-thumbnail, .recent-posts.team li .featured-thumbnail img {
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+	.recent-posts.team li h2 {font-size:26px; line-height:30px;}
+	
+/* Address */
+.address dt {
+	width:180px;
+	margin-right:10px;
+	font-size: 11px;
+}
+.address dd {
+	width:220px;
+	padding:0 0 0 53px;
+	font-size: 11px;
+}
+.address dd span {
+	width:200px;
+}
+
+/* Google Map */
+.google-map {
+	position: relative;
+	padding-bottom: 46.25%;
+	height: 0;
+	overflow: hidden;
+	margin:0 0 2% 0;
+}
+.google-map iframe,  
+.google-map object,  
+.google-map embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*---------------------------------------- 
+			Post Formats
+---------------------------------------- */
+
+/* Image Post Format */
+.image-post-format img {
+	width:100%;
+	overflow:hidden;
+}	
+
+/* Gallery Post Format */
+.slides_container_gallery {
+	width:534px;
+	height:270px;
+}
+	.slides_container_gallery .g_item {
+		width:534px;
+	}
+	
+	
+/*----------------------------------------
+				Portfolio
+---------------------------------------- */
+/* Default layout 3 columns */
+#gallery .portfolio li {
+	width:216px;
+	padding:15px 15px 7px;
+	margin:0 6px 10px 0;
+}
+	#gallery .portfolio li a.image-wrap {
+		width:216px;
+		height:216px;
+	}
+	#gallery .portfolio li a.image-wrap img {
+		width:100%;
+		height:auto;
+	}
+
+/* 1 column portfolio*/
+#gallery.one_column .portfolio li {
+	width:100%;
+	margin-right:0;
+	margin-left:0;
+	padding:15px 0px 15px;
+}
+#gallery.one_column .portfolio li a.image-wrap {
+	width:405px;
+	height:405px;
+	float:left;
+	margin:0px 20px 0px 15px;
+}
+	#gallery.one_column .folio-desc {
+		padding:0px 20px 0 0;
+	}
+		
+/* 2 columns portfolio*/
+#gallery.two_columns .portfolio li {
+	width:343px;
+}
+	#gallery.two_columns .portfolio li a.image-wrap {
+		width:343px;
+		height:335px;
+	}
+
+/* 4 columns portfolio*/
+#gallery.four_columns .portfolio li {
+	width:152px;
+}
+	#gallery.four_columns .portfolio li a.image-wrap {
+		width:152px;
+		height:152px;
+	}
+	
+/* Comment Form */
+.commentlist ul.children {
+	margin-left:0;
+	}	
+
+	
+/*----------------------------------------
+				Sidebar
+---------------------------------------- */
+#searchform .searching {width:142px;}	
+	
+}

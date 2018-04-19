@@ -1,0 +1,511 @@
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+
+/*----------------------------------------
+				 Header
+---------------------------------------- */
+#header {height:220px;}
+	.row-logo {height:92px;}
+	.row-menu {
+		height:50px;
+		background:none;
+	}
+/* Logo */
+.logo {
+	margin:0;
+	padding:0px 0 0 0px;	
+}
+.logo img{
+	width:300px;
+	height:auto;
+}
+.logo h1,
+.logo h2 {
+	font-size:40px;
+	line-height:45px!important;
+	padding:0px 0 0 4px;
+	margin:0 9px 8px 0;
+}
+	.logo .tagline {margin:0px 0 0 0;}
+	
+/*----------------------------------------
+				Top search
+---------------------------------------- */
+#top-search {
+	float:right;
+	padding:5px 0 0 0;
+	width: 300px;
+}
+	#top-search .input-search {width:208px;}
+
+/*----------------------------------------
+				Banner
+---------------------------------------- */
+#top-search-banner {
+	padding:5px 0 0 0;
+	width: 295px;
+}
+
+/*----------------------------------------
+				Navigations
+---------------------------------------- */
+
+/* Primary navigation */
+nav.primary {
+	clear:both;
+	width:100%;
+	margin:0;
+	text-align:center;
+	padding:5px 0;
+}
+
+.sf-menu {display:none;}
+
+/*----------------------------------------
+				Content
+---------------------------------------- */
+.prefix_3.left {padding-right:0px;}
+
+/*----------------------------------------
+					Misc
+---------------------------------------- */
+.separator {background:none;}
+.separator-1 {background:none;}
+.colborder {background:none;}
+
+.phone {padding:0 0 0 34px;}
+
+/* ----------------------------------------
+				Slider
+---------------------------------------- */
+#slider-wrapper,
+.slider-loader {height:172px;}
+
+#slider-wrapper {
+	padding:0 0 28px;
+	background:url(../images/slider/bg-slider-320.png) center bottom no-repeat;
+	background-color: White;
+}
+/*----------------------------------------
+				Prev & Next
+---------------------------------------- */
+.camera_prev, .camera_next {top: 30%;}
+.camera_prev {left: 0px;}
+.camera_next {right: 0px;}
+/*----------------------------------------
+				Paginations
+---------------------------------------- */
+.camera_wrap .camera_pag {bottom:-23px; left:30%;}
+.camera_wrap .camera_pag .camera_pag_ul li {
+	width: 7px;
+	height: 7px;
+	margin: 0px 7px;
+}
+
+
+/* ----------------------------------------
+	Recent Posts & Recent Post Services-Post
+---------------------------------------- */
+.latestpost li, .recent-posts.services-post li  {
+	width:275px;
+	padding:15px 10px 15px 15px;
+	margin:0 0px 30px 0;
+}
+	.latestpost li .featured-thumbnail, .recent-posts.services-post li .featured-thumbnail{
+		width:90px;
+		height:auto;
+		margin:7px 10px 0 0; 
+	}
+		.latestpost li .featured-thumbnail img, .recent-posts.services-post li .featured-thumbnail img{
+			width:100%;
+			height:auto;
+		}
+		
+		.latestpost li h4, .recent-posts.services-post li h4 {margin-bottom:15px;}
+		
+/* ----------------------------------------
+				Posts Type widget
+---------------------------------------- */
+.post_list.intro li .featured-thumbnail {
+	margin:0px 0px 15px 0;
+	float:none;
+}
+
+/* ----------------------------------------
+				 Recent News
+---------------------------------------- */
+.latestnews li {
+	width:100%;
+	background:none;
+	padding:0px 0px 4px 0px;
+}
+
+/*----------------------------------------
+		Recent Post Services
+---------------------------------------- */	
+.recent-posts.services li .featured-thumbnail {
+	width:300px;
+	height:auto;
+}
+	.recent-posts.services li .featured-thumbnail img{
+		width:286px;
+		height:auto;
+	}
+
+/* Flickr widget */
+.flickrImages a {
+	width:49px;
+	height:49px;
+	}
+
+/* Request a quote */
+.box-text {
+	width:100%;
+	float:none;
+	}
+.box-button {
+	width:100%;
+	float:none;
+	text-align:center;
+	padding-left:0;
+	padding-right:0;
+	}
+	.box-button .button {
+		float:none;
+		}
+
+/* Post */
+.featured-thumbnail {
+	
+	}
+	.featured-thumbnail img {
+		
+		}
+.post-meta .fright {
+	float:none;
+	clear:left;
+	}
+.featured-thumbnail.large {
+	width:auto;
+	height:auto;
+	margin:0 0 10px 0;
+	}
+
+
+/* Comments */
+.comment-meta {
+	position:static;
+	padding-bottom:1em;
+	}
+.comment-author {
+	padding-bottom:0;
+	}
+
+#commentform input[type="text"],
+#commentform textarea {
+	width:100%;
+	}
+
+/* Comment Form */
+.commentlist ul.children {
+	margin-left:0;
+	}	
+
+/*----------------------------------------
+		Recent Post Our Team
+---------------------------------------- */
+.recent-posts.team li {width:240px; margin:0 10px 30px 0;}
+.recent-posts.team li .featured-thumbnail{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	float:none;
+}
+	.recent-posts.team li .featured-thumbnail img {
+		width:100%;
+		height:auto;
+		overflow:hidden;
+	}
+	.recent-posts.team li h2 {font-size:26px; line-height:30px;}
+	
+/*----------------------------------------
+		Recent Post Clients
+---------------------------------------- */	
+.recent-posts.clients li {
+	width:145px;
+	margin:0 5px 25px 0!important;
+}
+	.recent-posts.clients li .featured-thumbnail {
+		width:145px;
+		height:auto;
+	}
+	.recent-posts.clients li .featured-thumbnail img{
+		width:129px;
+		height:auto;
+	}
+
+/*----------------------------------------
+		Post
+---------------------------------------- */	
+.featured-thumbnail, .featured-thumbnail.large, .single .post-holder .featured-thumbnail, .single .post-holder .featured-thumbnail.large  {
+	width:300px;
+	height:auto;
+	float:none;
+	margin:0 0 20px 0;
+}
+	.featured-thumbnail img, .featured-thumbnail.large img{
+		width:284px;
+		height:auto;
+	}
+	.single-post.clients .featured-thumbnail, .single-post.team .featured-thumbnail {
+		width:145px;
+		height:auto;
+		margin:10px 0px 10px 21px;
+		float:right;
+	}
+		.single-post.clients .featured-thumbnail img, .single-post.team .featured-thumbnail img{
+			width:129px;
+			height:auto;
+		}
+		
+/*---------------------------------------
+				 404
+---------------------------------------- */
+.error404-num {font-size:170px;}
+
+/*----------------------------------------
+				Testimonials
+---------------------------------------- */
+article.testimonial, .single article.testimonial  {
+	padding:170px 15px 20px 25px;
+	background-position:10px 160px;
+}
+article.testimonial .featured-thumbnail, .single article.testimonial .featured-thumbnail  {
+	width:190px;
+	height:125px;
+	left:50%;
+	margin-left:-95px;
+	top:20px;
+}
+	article.testimonial .featured-thumbnail img, .single article.testimonial .featured-thumbnail img {
+		width:174px;
+		height:109px;
+	}
+
+/* Images */
+.frame.alignleft,
+.frame.alignright,
+.frame.alignnone {
+	margin-right:0;
+	width:284px;
+}
+.frame.alignleft img,
+.frame.alignright img,
+.frame.alignnone img	{
+	width:100%;
+	height:auto;
+}
+	
+
+/* Related Posts */
+.related-posts li {
+	width:auto;
+	float:none;
+	margin:0 0 .5em 0;
+}
+.related-posts li:first-child {margin-left:0;}
+.related-posts li .featured-thumbnail {display:none;}
+
+
+/* SlidesJS */
+.slides_container {
+	width:300px;
+}
+.slides_container .item {
+	width:300px;
+	height:250px;
+}
+.slides_container .item .thumbnail img {
+	width:100%;
+	height:auto;
+}
+
+
+/* Address */
+.address dt {
+	width:auto;
+	margin:0 0 20px 0;
+	padding:0 0 0 55px;
+	font-size:12px;
+	float:none;
+}
+.address dd {
+	float:none;
+	width:auto;
+	padding:0 0 0 53px;
+	margin:0 0 20px 0;
+}
+	.address dd span {
+		width:250px;
+	}
+
+
+/* Comments */
+.commentlist ul.children {margin-left:0;}
+			
+
+/*----------------------------------------
+				Portfolio
+---------------------------------------- */
+/* Default layout 3 columns */
+#gallery .portfolio li {
+	width:240px;
+	margin:0 0px 10px 0;
+	float:none;
+}
+	#gallery .portfolio li a.image-wrap {
+		width:240px;
+		height:240px;
+	}
+		#gallery .portfolio li a.image-wrap img {
+			width:100%;
+			height:auto;
+		}
+/* 1 column portfolio*/
+#gallery.one_column .portfolio li {
+	width:240px;
+	padding:40px 30px 17px;
+}
+#gallery.one_column .portfolio li a.image-wrap {
+	width:240px;
+	height:240px;
+	margin:0 0 14px 0;
+}
+	#gallery.one_column .folio-desc {padding:0px 0px 0 0;}
+
+
+/* 2 columns portfolio*/
+#gallery.two_columns .portfolio li {
+	width:240px;
+}
+	#gallery.two_columns .portfolio li a.image-wrap {
+		width:240px;
+		height:234px;
+	}
+	
+/* 4 columns portfolio*/
+#gallery.four_columns .portfolio li {
+	width:240px;
+}
+	#gallery.four_columns .portfolio li a.image-wrap {
+		width:240px;
+		height:240px;
+	}
+
+/* Carousel */
+.es-carousel ul li h4 {display:none;}
+.es-carousel ul li .excerpt {display:none;}
+.es-carousel ul li .link {display:none;}	
+
+.post_list .featured-thumbnail {
+	float:left;
+	margin:0 20px 0 0;
+}
+
+.latestpost .featured-thumbnail {
+	float:left;
+	margin:0 20px 0 0;
+}
+
+
+/* ---------------------------------------- 
+				Post Formats
+---------------------------------------- */
+
+/* Image Post Format */
+.image-post-format img {
+	width:100%;
+	overflow:hidden;
+}
+
+/* Gallery Post Format */
+.slides_container_gallery {
+	width:300px;
+	height:150px;
+}
+	.slides_container_gallery .g_item {
+		width:300px;
+	}	
+
+/* Audio Format Type */
+.audiojs .scrubber {
+	width:130px;
+}
+
+	
+	
+/* Google Map */
+.google-map {
+	position: relative;
+	padding-bottom: 46.25%;
+	height: 0;
+	overflow: hidden;
+	margin:0 0 2% 0;
+}
+.google-map iframe,  
+.google-map object,  
+.google-map embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+		
+	
+/*----------------------------------------
+				Footer
+---------------------------------------- */
+nav.footer {
+	float:none;
+	text-align:center;
+	padding:0 0 10px 0;
+}
+	nav.footer ul {
+		margin:0;
+		padding:0;
+	}
+		nav.footer ul li {
+			display:inline-block;
+			float:none;
+			margin:0 0px 0 2px;
+			padding-left:6px;
+			font-size:12px;
+			line-height:17px;
+		}
+			nav.footer ul li:first-child {padding:0; margin:0;}
+			
+		nav.footer ul li a {
+			font-size:12px;
+			line-height:17px;
+		}
+
+	.footer-text {
+		width: 300px;
+		text-align: center;
+	}
+	.footer-logo {
+		padding:0px 0px 0px 0px;
+		width: 300px;
+	}
+	.footer-logo img {
+		display: block;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+	#footer  { padding-bottom: 10px; }
+	.grid_6 { margin-bottom: 0px; }
+}
